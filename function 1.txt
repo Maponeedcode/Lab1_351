@@ -1,0 +1,13 @@
+function 1
+msg.payload = msg.payload.temp_c;
+msg.topic = "Temperature (°C)";
+return msg;
+
+function 2
+msg.payload = msg.payload.rh;
+msg.topic = "Humidity (%)";
+return msg;
+
+function 3
+msg.payload = msg.payload.rssi;
+return msg;
